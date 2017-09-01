@@ -21,7 +21,6 @@ Classe per il reset della password.
 ## Esempio di utilizzo
 **framework.php**
 ```php
-<?
 global $_VVA_FW;
 define("VVA_FW_PATH", "omissis");
 include(VVA_FW_PATH . "db.php");
@@ -41,7 +40,6 @@ if(in_array("psw_reset", $_VVA_FW)) {
 if(in_array("sites", $_VVA_FW)) {
 	include(VVA_FW_PATH . "sites.php");
 }
-?>
 ```
 Utilizzo:
 ```php
