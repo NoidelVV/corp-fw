@@ -21,8 +21,7 @@ abstract class PasswordReset {
 	// RID Generation 
 	
 	static function generateRID($_user) {
-		$RID = hash("sha256", (rand(1,456668584)*rand(34,3819)*rand(949292,100003948)) . $_user['ID'] . $_user['Email'] . sha1($_user['Password']));
-		return $RID;
+		// PRIVATE
 	}
 }
 ?>
