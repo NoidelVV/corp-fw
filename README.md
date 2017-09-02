@@ -1,6 +1,7 @@
 # VVAccount Framework
 Questo framework costituisce la base di tutti gli applicativi presenti su NoidelVV (nel caso specifico, su noidelvv.org)
-Tramite un file framework.php, presente nelle singole directory degli applicativi, in base alle esigenze del singolo applicativo, vengono incluse queste pagine (db.php viene inclusa sempre). Per un esempio, vedere [corp-fw-example](https://github.com/NoidelVV/corp-fw-example).
+Tramite il file framework.php, presente nelle singole directory degli applicativi, vengono incluse queste pagine in base alle esigenze (db.php viene inclusa sempre). Per un esempio, vedere [corp-fw-example](https://github.com/NoidelVV/corp-fw-example).
+**Attenzione!** I file in questa repository servono solo per dare un'idea di come il sistema di SSO funzionasse, non contengono realmente il codice del framework
 
 ## Informazioni sui moduli di VVAccount
 ### db.php
